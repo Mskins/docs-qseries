@@ -1,1 +1,0 @@
-# 快捷批量渲染(QBatchRender)使用教程
