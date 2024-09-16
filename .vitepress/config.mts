@@ -34,6 +34,11 @@ export default defineConfig({
       {text: '常见问题',link: '/FAQ'},
     ],
 
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
     sidebar: [
       {text: '插件简介',
         items: [
