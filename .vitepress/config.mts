@@ -13,6 +13,7 @@ export default defineConfig({
     outline: "deep",
     
     logo: '/logo.svg',
+
     nav: [
       { text: '首页', link: '/' },
       {text: '插件简介',link: '/About Add-ons'},
@@ -105,14 +106,5 @@ export default defineConfig({
     },
 
   },
-
-  vite: {
-
-    ssr: {
-      noExternal: ['@escook/vitepress-theme','vitepress']
-    }
-
-  }
-
 
 })
