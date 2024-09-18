@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // base:'/docs-qseries/',
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
-  title: "Q-Series快捷系列插件",
+  title: "QAddons快捷系列插件",
   description: "快捷系列插件",
   themeConfig: {
     
