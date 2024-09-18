@@ -6,6 +6,8 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
   title: "QAddons快捷系列插件",
   description: "快捷系列插件",
+  lastUpdated: true,
+  
   themeConfig: {
     
     // https://vitepress.dev/reference/default-theme-config
@@ -13,6 +15,8 @@ export default defineConfig({
     outline: "deep",
     
     logo: '/logo.svg',
+
+    lastUpdatedText: "最后更新",
 
     nav: [
       { text: '首页', link: '/' },
