@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/docs-qseries/',
+  // base:'/docs-qseries/',
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
   title: "Q-Series快捷系列插件",
   description: "快捷系列插件",
