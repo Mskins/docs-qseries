@@ -10,12 +10,8 @@ export default defineConfig({
   themeConfig: {
     
     // https://vitepress.dev/reference/default-theme-config
-    outlineTitle: "目录",
-    outline: "deep",
-    
-    logo: '/logo.svg',
 
-    lastUpdatedText: "最后更新",
+    logo: '/logo.svg',
 
     nav: [
       { text: '首页', link: '/' },
@@ -35,42 +31,57 @@ export default defineConfig({
           { text: '快捷放置(QDrop)', link: '/Documentation/QDrop Doc' }
         ]
       },
+      
+      {text: '更新日志',
+        items: [
+          { text: '快捷系列插件管理器', link: '/updatelog/qseries_addons_manager_log' },
+          { text: '快捷灯光增强版(QLights Pro)', link: '/updatelog/QLights Pro log' },
+          { text: '快捷HDRI增强版(QHDRI Pro)', link: '/updatelog/QHDRI Pro log' },
+          { text: '快捷通道(QPasses)', link: '/updatelog/QPasses log' },
+          { text: '快捷材质(QMaterials)', link: '/updatelog/QMaterials log' },
+          { text: '快捷着色器(QShader)', link: '/updatelog/QShader log' },
+          { text: '快捷纹理(QTex)', link: '/updatelog/QTex log' },
+          { text: '快捷批量渲染(QBatchRender)', link: '/updatelog/QBatchRender log' },
+          { text: '快捷窗口(QWindows)', link: '/updatelog/QWindows log' },
+          { text: '快捷渲染插槽(QRenderSlots)', link: '/updatelog/QRenderSlots log' },
+          { text: '快捷放置(QDrop)', link: '/updatelog/QDrop log' }
+        ]
+      },
+
       {text: '常见问题',link: '/FAQ'},
-    ],
 
-    docFooter: {
-      prev: '上一页',
-      next: '下一页'
-    },
-
-    sidebar: [
-      {text: '插件简介',
-        items: [
-          { text: '快捷系列插件简介', link: '/About Add-ons' }
-        ]
-      },
-      {text: '使用文档',
-        collapsed: false,
-        items: [
-          { text: '快捷系列插件管理器', link: '/Documentation/qseries_addons_manager_Doc' },
-          { text: '快捷灯光增强版(QLights Pro)', link: '/Documentation/QLights Pro Doc' },
-          { text: '快捷HDRI增强版(QHDRI Pro)', link: '/Documentation/QHDRI Pro Doc' },
-          { text: '快捷通道(QPasses)', link: '/Documentation/QPasses Doc' },
-          { text: '快捷材质(QMaterials)', link: '/Documentation/QMaterials Doc' },
-          { text: '快捷着色器(QShader)', link: '/Documentation/QShader Doc' },
-          { text: '快捷纹理(QTex)', link: '/Documentation/QTex Doc' },
-          { text: '快捷批量渲染(QBatchRender)', link: '/Documentation/QBatchRender Doc' },
-          { text: '快捷窗口(QWindows)', link: '/Documentation/QWindows Doc' },
-          { text: '快捷渲染插槽(QRenderSlots)', link: '/Documentation/QRenderSlots Doc' },
-          { text: '快捷放置(QDrop)', link: '/Documentation/QDrop Doc' }
-        ]
-      },
-      {text: '常见问题',
-        items: [
-          { text: '常见问题解答', link: '/FAQ' }
-        ]
-      },
     ],
+    
+    sidebarMenuLabel: '菜单',
+
+    // sidebar: [
+    //   {text: '插件简介',
+    //     items: [
+    //       { text: '快捷系列插件简介', link: '/About Add-ons' }
+    //     ]
+    //   },
+    //   {text: '使用文档',
+    //     collapsed: false,
+    //     items: [
+    //       { text: '快捷系列插件管理器', link: '/Documentation/qseries_addons_manager_Doc' },
+    //       { text: '快捷灯光增强版(QLights Pro)', link: '/Documentation/QLights Pro Doc' },
+    //       { text: '快捷HDRI增强版(QHDRI Pro)', link: '/Documentation/QHDRI Pro Doc' },
+    //       { text: '快捷通道(QPasses)', link: '/Documentation/QPasses Doc' },
+    //       { text: '快捷材质(QMaterials)', link: '/Documentation/QMaterials Doc' },
+    //       { text: '快捷着色器(QShader)', link: '/Documentation/QShader Doc' },
+    //       { text: '快捷纹理(QTex)', link: '/Documentation/QTex Doc' },
+    //       { text: '快捷批量渲染(QBatchRender)', link: '/Documentation/QBatchRender Doc' },
+    //       { text: '快捷窗口(QWindows)', link: '/Documentation/QWindows Doc' },
+    //       { text: '快捷渲染插槽(QRenderSlots)', link: '/Documentation/QRenderSlots Doc' },
+    //       { text: '快捷放置(QDrop)', link: '/Documentation/QDrop Doc' }
+    //     ]
+    //   },
+    //   {text: '常见问题',
+    //     items: [
+    //       { text: '常见问题解答', link: '/FAQ' }
+    //     ]
+    //   },
+    // ],
     
 
     socialLinks: [
@@ -85,7 +96,19 @@ export default defineConfig({
     footer: 
       { copyright:"版权所有 © 2024 亮锅不服LAO"},
 
-
+    darkModeSwitchLabel: '切换主题',
+    lightModeSwitchTitle: '切换为亮色',
+    darkModeSwitchTitle: '切换为暗色',  
+    lastUpdatedText: "最后更新",  
+    outlineTitle: "目录",
+    outline: "deep",
+    externalLinkIcon: true,
+    returnToTopLabel: '返回顶部',
+    docFooter: {
+        prev: '上一页',
+        next: '下一页'
+      },
+      
     // 设置搜索框的样式
     search: {
       provider: "local",
