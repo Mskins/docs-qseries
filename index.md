@@ -32,3 +32,10 @@ features:
     details: 插件会在第一时间适配新版Blender，反馈问题也会及时回复
 ---
 
+::: tip 温馨提示
+本网站部署在Github上，如果加载速度过慢，请爬墙浏览！
+
+[备用站点Vercel端](https://docs-qseries.vercel.app/ "部署在Vercel上") 
+
+[备用站点Cloudflare端](https://docs-qseries.pages.dev/ "部署在Cloudflare Pages上")
+:::
