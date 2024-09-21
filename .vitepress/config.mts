@@ -54,6 +54,7 @@ export default defineConfig({
     
     sidebarMenuLabel: '菜单',
 
+
     // sidebar: [
     //   {text: '插件简介',
     //     items: [
@@ -83,6 +84,7 @@ export default defineConfig({
     //   },
     // ],
     
+    aside: 'left',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Mskins' },
