@@ -13,4 +13,4 @@
 
 解压后复制到C:\Users\你的用户名\AppData\Roaming\Blender Foundation\Blender\4.x\scripts\startup\下。
 
-<a href="files/MSPlugin.zip" target="_blank">点击下载</a>
+[右键下载](files/MSPlugin.zip)
