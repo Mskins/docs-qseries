@@ -49,6 +49,7 @@ export default defineConfig({
       },
 
       {text: '常见问题',link: '/FAQ/FAQ'},
+      {text: '免费插件',link: '/freeaddons'},
 
     ],
     
