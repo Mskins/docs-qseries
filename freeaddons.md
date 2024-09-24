@@ -13,4 +13,4 @@
 
 解压后复制到C:\Users\你的用户名\AppData\Roaming\Blender Foundation\Blender\4.x\scripts\startup\下。
 
-[右键下载](files/MSPlugin.zip)
+[下载地址](https://github.com/Mskins/freeaddons/releases)
