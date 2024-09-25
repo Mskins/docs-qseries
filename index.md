@@ -35,7 +35,7 @@ features:
 ::: tip 温馨提示
 本网站主站部署在[Cloudflare](https://qaddons.com/ "Cloudflare主站-qaddons.com")上，如果加载速度过慢，请爬墙浏览，或者试试下面的备份站点！
 
-[备份站点Github端-qaddons.cn](https://qaddons.cn/ "部署在Github上")
+[备份站点-qaddons.cn](https://qaddons.cn/ "部署在Github上")
 
 [备份站点Vercel端](https://docs-qseries.vercel.app/ "部署在Vercel上") 
 
