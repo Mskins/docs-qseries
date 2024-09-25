@@ -33,9 +33,10 @@ features:
 ---
 
 ::: tip 温馨提示
-本网站部署在[Github](https://qaddons.cn// "Github主站")上，如果加载速度过慢，请爬墙浏览，或者试试下面的备份站点！
+本网站主站部署在[Cloudflare](https://qaddons.com/ "Cloudflare主站-qaddons.com")上，如果加载速度过慢，请爬墙浏览，或者试试下面的备份站点！
 
-[备用站点Vercel端](https://docs-qseries.vercel.app/ "部署在Vercel上") 
+[备份站点Github端-qaddons.cn](https://qaddons.cn/ "部署在Github上")
 
-[备用站点Cloudflare端](https://docs-qseries.pages.dev/ "部署在Cloudflare Pages上")
+[备份站点Vercel端](https://docs-qseries.vercel.app/ "部署在Vercel上") 
+
 :::
