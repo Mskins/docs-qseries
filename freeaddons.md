@@ -28,5 +28,5 @@ https://pan.baidu.com/s/1LlHrO8zTVwnEqfGQnvOZ5g?pwd=z3sq
 
 **百度云下载地址：**
 ```
-https://pan.baidu.com/s/1qUCbEnDB-q-QT43PSM56IQ?pwd=w60w
+https://pan.baidu.com/s/17Sme6VlK_bvwoBlTwSXJoA?pwd=c1nj
 :::
