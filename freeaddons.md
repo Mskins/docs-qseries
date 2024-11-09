@@ -30,3 +30,14 @@ https://pan.baidu.com/s/1LlHrO8zTVwnEqfGQnvOZ5g?pwd=z3sq
 ```
 https://pan.baidu.com/s/17Sme6VlK_bvwoBlTwSXJoA?pwd=c1nj
 :::
+
+
+
+### 快捷调色
+::: warning Blender实时调色与炫光设置插件
+为Blender提供简单高效又强大的实时后期调色功能，并且能快速设置各种类型的炫光效果。
+
+**百度云下载地址：**
+```
+https://pan.baidu.com/s/1-eYbtne2kcDFLvGHD5NhdA?pwd=bv6f
+:::
